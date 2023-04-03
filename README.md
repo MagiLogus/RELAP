@@ -25,7 +25,7 @@ paragrafo 2
 
 paragrafo 3
 
-![Descrição do projeto RELAP, onde se tem uma imagem da página inicial.](/readme/ImagemDescrição.png)
+![Descrição do projeto RELAP, onde se tem uma imagem da página inicial.](/readme/pagina-inicial.png)
 </div>
 
 ## Funcionalidades
