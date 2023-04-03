@@ -58,7 +58,7 @@ paragrafo 3
 
 ## Acesso à página
 
-Você pode [acessar a página do projeto](https://magilogus.github.io/RELAP/), sendo também possível [acessar um modelo de alta fidelidade](https://www.figma.com/file/7vLknEfq21nkM5q45Gv5sU/RELAP-Project?node-id=0-3337) no Figma. 
+Você pode [acessar a página do projeto](https://magilogus.github.io/RELAP/), sendo também possível [acessar o protótipo de alta fidelidade](https://www.figma.com/file/7vLknEfq21nkM5q45Gv5sU/RELAP-Project?node-id=0-3337) no Figma. 
 
 ## Desenvolvedor
 
