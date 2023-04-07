@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* Header */
+
+/* Main/Banner */
+main .banner-cont {
+    width: 100vw;
+    height: 115.15vh;
+    background: linear-gradient(224.72deg, #3023AE -1%, #C86DD7 100.5%);
+
+}
+
+
+/* Footer */
