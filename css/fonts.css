@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "pop700";
+    src: url(/assets/fonts/poppins/Poppins_700.ttf);
+}
+
+@font-face {
+    font-family: "sans400";
+    src: url(/assets/fonts/source/SourceSansPro_400.ttf);
+}
+
+@font-face {
+    font-family: "sans600";
+    src: url(/assets/fonts/source/SourceSansPro_600.ttf);
+}
+
+@font-face {
+    font-family: "sans700";
+    src: url(/assets/fonts/source/SourceSansPro_700.ttf);
+}
+
