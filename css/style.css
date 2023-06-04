@@ -330,3 +330,231 @@ main section .banner-product-itens .products a {
     text-decoration: none;
     margin-top: 8px;
 }
+
+main section .best-products-cont {
+    width: 100%;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FDF2FF;
+}
+
+main section .best-products-cont .text-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+main section .best-products-cont .text-cont h5 {
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+main section .best-products-cont .text-cont h2 {
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #333333;
+}
+
+main section .best-products-cont .cardbox {
+    width: 100%;
+    height: 480px;
+    display: grid;
+    grid-template-areas:
+        "cardtwo cardthree cardfour"
+        "cardtwo cardfive cardfive";
+    gap: 30px;
+    margin-top: 57px;
+}
+
+main section .best-products-cont .cardbox .cardtwo {
+    width: 370px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    grid-row: cardtwo;
+    background: #FFFFFF;
+    background-image: url(/assets/images/multiiphone.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 3px;
+    padding-left: 32px;
+    padding-top: 37px;
+
+}
+
+main section .best-products-cont .cardbox .cardtwo h4 {
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+main section .best-products-cont .cardbox .cardtwo span {
+    font-family: "sans400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 26px;
+}
+
+main section .best-products-cont .cardbox .cardtwo button {
+    width: 170px;
+    height: 48px;
+    font-family: "sans700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #C86DD7;
+    background-color: #FFFFFF;
+    border: 1px solid #C86DD7;
+    border-radius: 24px;
+}
+
+main section .best-products-cont .cardbox .cardthree {
+    width: 370px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    grid-row: cardthree;
+    margin-bottom: auto;
+    background: #FFFFFF;
+    background-image: url(/assets/images/iphone.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 3px;
+    padding-left: 32px;
+    padding-top: 37px;
+}
+
+main section .best-products-cont .cardbox .cardthree h4 {
+    width: 142px;
+    height: 64px;
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+main section .best-products-cont .cardbox .cardthree h5 {
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+main section .best-products-cont .cardbox .cardfour {
+    width: 370px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    grid-row: cardfour;
+    background: #FFFFFF;
+    background-image: url(/assets/images/watch.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 3px;
+    padding-left: 32px;
+    padding-top: 37px;
+}
+
+main section .best-products-cont .cardbox .cardfour h4 {
+    width: 82px;
+    height: 64px;
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+main section .best-products-cont .cardbox .cardfour h5 {
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+main section .best-products-cont .cardbox .cardfive {
+    width: 780px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    grid-column: cardfive;
+    background: #FFFFFF;
+    background-image: url(/assets/images/laptop.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 3px;
+    padding-left: 32px;
+    padding-top: 37px;
+}
+
+main section .best-products-cont .cardbox .cardfive h4 {
+    font-family: "pop700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+main section .best-products-cont .cardbox .cardfive span {
+    font-family: "sans400";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 26px;
+}
+
+main section .best-products-cont .cardbox .cardfive button {
+    width: 170px;
+    height: 48px;
+    font-family: "sans700";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #C86DD7;
+    background-color: #FFFFFF;
+    border: 1px solid #C86DD7;
+    border-radius: 24px;
+}
